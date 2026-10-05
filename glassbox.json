@@ -1,0 +1,178 @@
+{
+  "slug": "rateclear",
+  "kind": "principle",
+  "box": 39,
+  "date": "2026-10-03",
+  "title": "Rates of reaction",
+  "question": "What sets the rate of a reaction?",
+  "principle": {
+    "type": "concept",
+    "name": "Rates of reaction",
+    "formula": "k = A × e^(−Ea ÷ RT)",
+    "formulaNote": "rate constant = (how often particles collide the right way round) × (the share of collisions with at least the activation energy Ea). R is the gas constant, 8.314 J per mole per kelvin, and T is the temperature in kelvin. This is the Arrhenius equation. The rate itself is k times the concentrations of the reactants",
+    "idea": "Particles react only when they collide hard enough, and the right way round, to get over a hill of energy called the activation energy. So a reaction goes faster with more particles, more heat, more surface, or a catalyst that opens a lower path over the hill.",
+    "discovered": "1889 · Svante Arrhenius, Sweden, building on Jacobus van 't Hoff (1884). The first measured rate law was Ludwig Wilhelmy's in 1850, and collision theory came from Max Trautz (1916) and William Lewis (1918)",
+    "art": "thermometer",
+    "appliesTo": [
+      "fridgeclear",
+      "curdclear",
+      "boilclear",
+      "carclear",
+      "digestionclear",
+      "idliclear",
+      "breadclear",
+      "airfryerclear"
+    ],
+    "examples": [
+      {
+        "title": "Why food keeps in the fridge",
+        "text": "Spoiling is chemistry, much of it done by microbes. With a typical hill of 80 kJ/mol, the same change runs about 20 times slower at 4 °C than on a 30 °C counter. Cold slows microbes; it does not kill most of them.",
+        "box": "fridgeclear"
+      },
+      {
+        "title": "Dahi sets faster in summer",
+        "text": "Curd bacteria work fastest at about 42 °C, where a pot sets in about 5 hours. At 25 °C the same pot needs most of a day. Much hotter than 45 °C and their enzymes start to lose their shape, so the rate falls again.",
+        "box": "curdclear"
+      },
+      {
+        "title": "The pressure cooker",
+        "text": "An open pot is stuck at 100 °C. A cooker holds water at about 120 °C, and for the 87 kJ/mol hill of softening lentils that 20 °C makes dal cook about four times faster. In Leh, where water boils at 88 °C, an open pot is 2.5 times slower.",
+        "box": "boilclear"
+      },
+      {
+        "title": "The catalytic converter in a car",
+        "text": "Platinum, palladium and rhodium on a ceramic honeycomb give carbon monoxide, unburnt fuel and nitrogen oxides a lower path to carbon dioxide, water and nitrogen. Once it is hot, above about 250 to 300 °C, it removes more than 90 % of them, and the metals are not used up.",
+        "box": "carclear"
+      },
+      {
+        "title": "Enzymes in your gut",
+        "text": "Enzymes are protein catalysts. Amylase in saliva starts cutting starch into sugars within seconds at 37 °C, a reaction that hardly moves on its own in plain water. Each enzyme molecule is used again and again.",
+        "box": "digestionclear"
+      },
+      {
+        "title": "Idli batter in May and in January",
+        "text": "Batter ferments overnight in a warm kitchen at about 30 °C. On a cold winter night the bacteria and yeasts work several times slower, so cooks leave it longer or keep it somewhere warm.",
+        "box": "idliclear"
+      },
+      {
+        "title": "Proving bread dough",
+        "text": "Yeast makes the gas that lifts dough, and it works faster when warm, up to about 35 °C. Dough that doubles in an hour or two in a warm place can be left all night in the fridge, where the same chemistry runs many times slower.",
+        "box": "breadclear"
+      },
+      {
+        "title": "Browning in an air fryer",
+        "text": "The Maillard reactions that brown and flavour food are slow at 100 °C and fast above about 140 °C. Boiled food stays pale because water holds it at 100 °C. Dry hot air lets the surface get past that.",
+        "box": "airfryerclear"
+      },
+      {
+        "title": "Powder against a lump",
+        "text": "A solid reacts only at its surface. The same 0.4 g of marble gives off its gas in seconds as a powder and in minutes as chips. One litre of solid cut down to flour-sized grains has about 120 m² of surface, which is why fine flour, sugar or coal dust hanging in air is an explosion hazard."
+      },
+      {
+        "title": "Iron in the ammonia plant",
+        "text": "Nitrogen's triple bond is one of the strongest known, 945 kJ/mol. On a surface of iron the molecule is pulled apart over much lower hills, so N₂ + 3H₂ ⇌ 2NH₃ runs at a useful speed at 400 to 450 °C. The iron speeds both directions and does not change the yield."
+      },
+      {
+        "title": "Rust in the monsoon",
+        "text": "Iron needs both water and oxygen to rust. By the ISO 9223 formula, bare steel in 90 % humid, salty sea-front air at 28 °C loses about 220 µm a year, against about 13 µm in dry inland air."
+      }
+    ]
+  },
+  "hook": "A tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.",
+  "thumbText": "RATES OF REACTION",
+  "field": "chemistry",
+  "minutes": 12,
+  "tags": [
+    "rates of reaction",
+    "chemical kinetics",
+    "collision theory",
+    "activation energy",
+    "arrhenius equation",
+    "maxwell-boltzmann distribution",
+    "catalyst",
+    "enzymes",
+    "catalytic converter",
+    "haber process",
+    "surface area",
+    "pressure cooker",
+    "rusting",
+    "michaelis-menten",
+    "chemistry",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Collide hard enough",
+      "text": "Molecules react only when they collide with at least the activation energy Ea, and the right way round. At 27 °C just 0.67 % of collisions clear a 12.5 kJ/mol hill. A tank of 400 molecules counts its own reactions, and the count matches collisions × e^(−Ea ÷ RT)."
+    },
+    {
+      "title": "A few degrees, a big change",
+      "text": "\"Rates double every 10 °C\" is exact only for a hill of 53 kJ/mol near room temperature. A 12.5 kJ/mol hill gains 18 %, a 106 kJ/mol hill gains four times. That is why a fridge at 4 °C slows spoiling about 20 times, and a pressure cooker at 120 °C cooks dal four times faster than a pot at 100 °C."
+    },
+    {
+      "title": "Only the surface reacts",
+      "text": "A solid can be hit only at its surface. Powdered marble gives off its 96 cm³ of gas in seconds, chips in minutes, and the slope of the gas curve is the rate. One litre of solid ground to flour has 120 m² of surface, so dust clouds are a fire hazard. Damp, salty air rusts steel many times faster than dry air."
+    },
+    {
+      "title": "A lower path over the hill",
+      "text": "A catalyst offers another route with a lower hill and comes out unchanged. Hydrogen peroxide's hill drops from 75 kJ/mol to 56.5 with iodide and to about 8 with the enzyme catalase. Platinum cleans car exhaust, and iron makes ammonia for fertiliser. A catalyst changes how fast, never how much."
+    },
+    {
+      "title": "Where the simple rules stop",
+      "text": "A rate is not one number: it falls as the reactants run out, and a tangent to the curve reads it at any moment. Living things break the Arrhenius rule: above about 45 °C curd bacteria slow down because their enzymes unfold. And a downhill reaction can still be too slow to see: diamond should turn to graphite, but its hill of about 730 kJ/mol means it never does at room temperature."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Rate of reaction",
+      "def": "How fast reactants are used up or products are made: the change in amount divided by the time taken."
+    },
+    {
+      "term": "Collision theory",
+      "def": "Particles react only when they collide with enough energy and the right way round."
+    },
+    {
+      "term": "Activation energy (Ea)",
+      "def": "The least energy a collision needs to react: the height of the hill between reactants and products, in kJ per mole."
+    },
+    {
+      "term": "Arrhenius equation",
+      "def": "k = A × e^(−Ea ÷ RT). It says how the rate constant k depends on the hill Ea and the temperature T in kelvin."
+    },
+    {
+      "term": "Maxwell–Boltzmann spread",
+      "def": "The range of speeds of molecules at one temperature. Only the fast tail has enough energy to react, and heating fattens that tail."
+    },
+    {
+      "term": "Catalyst",
+      "def": "A substance that speeds a reaction by opening a path with a lower hill. It is not used up, and it does not change how much product forms."
+    },
+    {
+      "term": "Enzyme",
+      "def": "A protein that works as a catalyst in living things. Each one fits a particular molecule, and it stops working if heat unfolds it."
+    },
+    {
+      "term": "Tangent",
+      "def": "A straight line that just touches a curve. On a graph of amount against time, its gradient is the rate at that moment."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "rateclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

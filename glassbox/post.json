@@ -1,0 +1,126 @@
+{
+  "slug": "rateclear",
+  "box": 39,
+  "question": "What sets the rate of a reaction?",
+  "url": "https://glassbox.how/e/rateclear/",
+  "app": "https://glassbox.how/rateclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From an exploding flour store in Turin to laser flashes that catch a bond as it breaks.\n\n1835: Berzelius gives it a name: catalysis\n1850: The first reaction to be timed\n1884: Studies in chemical dynamics\n1889: Arrhenius and the energy hill\n1909: A Nobel Prize for catalysis\n1909: The search for a catalyst that could feed the world\n\nThe full story, with 21 moments, sources and charts: glassbox.how/e/rateclear/history (link in bio)\n\nThen play with how it works: glassbox.how/rateclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ratesofreaction #chemicalkinetics #collisiontheory #activationenergy #arrheniusequation #maxwellboltzmanndistribution #history",
+      "youtube": {
+        "title": "The history of reaction rates and catalysts in 45 seconds #shorts",
+        "description": "From an exploding flour store in Turin to laser flashes that catch a bond as it breaks.\n\n1835 · Berzelius gives it a name: catalysis (Jöns Jacob Berzelius)\n1850 · The first reaction to be timed (Ludwig Wilhelmy)\n1884 · Studies in chemical dynamics (Jacobus van 't Hoff)\n1889 · Arrhenius and the energy hill (Svante Arrhenius)\n1909 · A Nobel Prize for catalysis (Wilhelm Ostwald)\n1909 · The search for a catalyst that could feed the world (Alwin Mittasch, with Carl Bosch and Fritz Haber)\n\n▶ Full history: https://glassbox.how/e/rateclear/history/\n▶ Play with it: https://glassbox.how/e/rateclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "What sets the rate of a reaction?\n\nA tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.\n\n→ Molecules react only when they collide hard enough to get over a hill of energy.\n→ Heat the gas and far more collisions clear the hill. The counted rate follows the Arrhenius equation.\n→ \"Rates double every 10 °C\" is only true when the hill is about 53 kJ/mol. Lower hills gain less, higher hills gain more.\n→ A pressure cooker holds water at 120 °C, not 100. That 20 °C makes dal cook about four times faster.\n→ A solid reacts only at its surface. The same marble as powder gives off its gas many times faster than chips.\n\nPlay with it yourself. It's free and open source: glassbox.how/rateclear (link in bio)\n\nBox No. L39 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ratesofreaction #chemicalkinetics #collisiontheory #activationenergy #arrheniusequation #maxwellboltzmanndistribution #catalyst #enzymes #catalyticconverter",
+    "carousel": "Swipe through: What sets the rate of a reaction?\n\nA tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.\n\nSave this for later, then play with the interactive version at glassbox.how/rateclear (link in bio).\n\nBox No. L39 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #ratesofreaction #chemicalkinetics #collisiontheory #activationenergy #arrheniusequation #maxwellboltzmanndistribution",
+    "youtube": {
+      "title": "What sets the rate of a reaction? #shorts",
+      "description": "A tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.\n\n▶ Play with it: https://glassbox.how/e/rateclear/\n⌘ Source code (MIT): https://github.com/bdeeps/rateclear\n\nBox No. L39 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "What sets the rate of a reaction? (interactive explainer)",
+      "description": "A tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.\n\n▶ Play with the interactive version: https://glassbox.how/e/rateclear/\n⌘ Source code (MIT): https://github.com/bdeeps/rateclear\n\nIn this video:\n• Collide hard enough. Molecules react only when they collide with at least the activation energy Ea, and the right way round.\n• A few degrees, a big change. \"Rates double every 10 °C\" is exact only for a hill of 53 kJ/mol near room temperature.\n• Only the surface reacts. A solid can be hit only at its surface.\n• A lower path over the hill. A catalyst offers another route with a lower hill and comes out unchanged.\n• Where the simple rules stop. A rate is not one number: it falls as the reactants run out, and a tangent to the curve reads it at any moment.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "What sets the rate of a reaction?\n\nA tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation.\n\nPlay with it: https://glassbox.how/e/rateclear/",
+    "linkedin": "What sets the rate of a reaction?\n\nA tank of 400 molecules collides hundreds of times a second and counts every reaction, and the count lands on the Arrhenius equation. Test the \"doubles every 10 °C\" rule and find the one hill for which it is true. Then cook dal in Leh, powder marble, clean a car's exhaust with platinum and ask why diamonds last.\n\n1. Collide hard enough\n2. A few degrees, a big change\n3. Only the surface reacts\n4. A lower path over the hill\n5. Where the simple rules stop\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. L39 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/rateclear/\nCode: https://github.com/bdeeps/rateclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-05T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-05T09:58:45.990Z"
+}

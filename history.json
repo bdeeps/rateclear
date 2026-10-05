@@ -1,0 +1,756 @@
+{
+  "title": "The history of reaction rates and catalysts",
+  "tagline": "From an exploding flour store in Turin to laser flashes that catch a bond as it breaks.",
+  "intro": "For centuries chemists asked what a reaction makes, not how fast it goes. In the early 1800s they met substances that sped reactions up and came out unchanged, and in 1850 one man timed a reaction with a beam of light. By 1889 Arrhenius had the energy hill. The century after turned that idea into fertiliser, clean exhaust and an understanding of the enzymes that run every living cell.",
+  "eras": [
+    {
+      "id": "first",
+      "name": "Strange helpers",
+      "from": 1785,
+      "to": 1860,
+      "color": "#c49bff",
+      "summary": "Acid, platinum and malt extract speed reactions without being used up. Berzelius names catalysis, and Wilhelmy times a reaction for the first time."
+    },
+    {
+      "id": "laws",
+      "name": "The laws of speed",
+      "from": 1860,
+      "to": 1900,
+      "color": "#6fb6ff",
+      "summary": "Harcourt and Esson write rate laws, van 't Hoff measures the effect of temperature, and Arrhenius explains it with an energy hill."
+    },
+    {
+      "id": "hill",
+      "name": "Over the hill",
+      "from": 1900,
+      "to": 1940,
+      "color": "#5ce1a9",
+      "summary": "Catalysis wins a Nobel Prize and feeds the world with ammonia. Collision theory and the transition state explain where rates come from, and enzymes get an equation."
+    },
+    {
+      "id": "clean",
+      "name": "Catalysts everywhere",
+      "from": 1940,
+      "to": 2026,
+      "color": "#ffb547",
+      "summary": "Catalytic converters clean the exhaust of cars worldwide, lasers catch molecules in mid-reaction, and surface science shows how a catalyst works atom by atom."
+    }
+  ],
+  "events": [
+    {
+      "year": 1785,
+      "date": "14 December 1785",
+      "era": "first",
+      "art": "flame",
+      "title": "A bakery store-room blows up",
+      "who": "Count Morozzo (who investigated)",
+      "where": "Turin",
+      "country": "Italy",
+      "text": "A cloud of very dry flour, shaken loose in a baker's store-room, met the flame of a lamp. The blast blew out the windows and hurt two workers. Count Morozzo questioned the baker and reported the case to the Turin Academy of Sciences: it is the first dust explosion on record.",
+      "why": "It showed, long before anyone could explain it, that a harmless solid becomes dangerous when it is fine enough to give air a huge surface to attack.",
+      "box": "surface",
+      "sources": [
+        37,
+        38
+      ]
+    },
+    {
+      "year": 1811,
+      "date": "1811",
+      "era": "first",
+      "art": "flask",
+      "title": "Acid turns starch to sugar, and is still there",
+      "who": "Gottlieb Kirchhoff",
+      "where": "St Petersburg",
+      "country": "Russia",
+      "text": "Kirchhoff boiled starch with a little dilute sulphuric acid and got a sweet syrup of glucose. When he checked afterwards, the acid had not been used up. It had made the change go without being part of the product.",
+      "why": "It was the first clearly recorded case of what would later be called catalysis.",
+      "box": "catalyst",
+      "sources": [
+        11,
+        10
+      ]
+    },
+    {
+      "year": 1823,
+      "date": "1823",
+      "era": "first",
+      "art": "candles",
+      "title": "A lighter that needs no spark",
+      "who": "Johann Wolfgang Döbereiner",
+      "where": "Jena",
+      "country": "Germany",
+      "text": "Döbereiner found that a jet of hydrogen aimed at spongy platinum catches fire by itself. The platinum makes hydrogen and oxygen combine on its surface, and the heat lights the gas. He built a table lighter on the idea, and it sold widely for decades.",
+      "why": "A metal surface was making a reaction run at room temperature and was left unchanged: the first catalyst in everyday use.",
+      "box": "catalyst",
+      "sources": [
+        12,
+        13
+      ]
+    },
+    {
+      "year": 1833,
+      "date": "1833",
+      "era": "first",
+      "art": "leaf",
+      "title": "Diastase: the first enzyme",
+      "who": "Anselme Payen and Jean-François Persoz",
+      "where": "Paris",
+      "country": "France",
+      "text": "From malt, the two chemists separated a substance that turned starch into sugar far faster than acid could. Heating destroyed its power. They called it diastase. Today we call it amylase, and it is in your saliva.",
+      "why": "Living things, it turned out, carry their own catalysts. The word \"enzyme\" for them was coined by Wilhelm Kühne in the 1870s.",
+      "box": "catalyst",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1835,
+      "date": "1835",
+      "era": "first",
+      "art": "quill",
+      "key": true,
+      "title": "Berzelius gives it a name: catalysis",
+      "who": "Jöns Jacob Berzelius",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "In his yearly review of chemistry, Berzelius gathered the puzzles of the past twenty years: acid on starch, platinum on hydrogen, metals on hydrogen peroxide. He saw one idea behind them and named it catalysis, from the Greek for \"loosening\".",
+      "why": "A scattered set of oddities became one subject with a name. How catalysts worked would stay unclear for another sixty years.",
+      "box": "catalyst",
+      "sources": [
+        10,
+        13
+      ]
+    },
+    {
+      "year": 1850,
+      "date": "1850",
+      "era": "first",
+      "art": "scales",
+      "key": true,
+      "title": "The first reaction to be timed",
+      "who": "Ludwig Wilhelmy",
+      "where": "Heidelberg",
+      "country": "Germany",
+      "text": "Cane sugar in acid slowly splits into glucose and fructose, and as it does it twists polarised light differently. Wilhelmy followed that twist with a polarimeter, so he could watch the reaction without touching it. He found that the rate at every moment is proportional to the sugar still left, and wrote the result as an equation.",
+      "why": "It was the first quantitative study of how fast a reaction goes. Hardly anyone noticed until Ostwald pointed to it in 1884.",
+      "box": "limits",
+      "sources": [
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1866,
+      "date": "1866",
+      "era": "laws",
+      "art": "scroll",
+      "title": "A chemist and a mathematician team up",
+      "who": "Augustus Vernon Harcourt and William Esson",
+      "where": "Oxford",
+      "country": "England",
+      "text": "Harcourt timed the reaction of potassium permanganate with oxalic acid, and Esson, a mathematician, worked out the equations. They showed that the rate follows the amount of each reacting substance and solved the cases chemists still learn as first and second order.",
+      "why": "Rate laws became a tool: measure how the rate changes with concentration and you learn how the reaction happens.",
+      "box": "idea",
+      "sources": [
+        5,
+        6
+      ]
+    },
+    {
+      "year": 1884,
+      "date": "1884",
+      "era": "laws",
+      "art": "thermometer",
+      "key": true,
+      "title": "Studies in chemical dynamics",
+      "who": "Jacobus van 't Hoff",
+      "where": "Amsterdam",
+      "country": "Netherlands",
+      "text": "Van 't Hoff's book Études de dynamique chimique set out how to find the order of a reaction and how rates change with temperature. He noted that many reactions go two to three times faster for a rise of 10 °C, and gave an equation for it.",
+      "why": "It is the source of the \"doubles every 10 °C\" rule of thumb. In 1901 he received the first Nobel Prize in Chemistry, in part for these laws of chemical dynamics.",
+      "box": "heat",
+      "sources": [
+        8,
+        7,
+        2
+      ]
+    },
+    {
+      "year": 1889,
+      "date": "1889",
+      "era": "laws",
+      "art": "mountain",
+      "key": true,
+      "title": "Arrhenius and the energy hill",
+      "who": "Svante Arrhenius",
+      "where": "Leipzig",
+      "country": "Germany",
+      "text": "Why should a few degrees matter so much? The Swedish chemist Arrhenius, studying the same cane sugar reaction, proposed that only a small share of molecules are \"active\" at any moment, and that this share grows steeply with temperature. That gave k = A × e^(−Ea ÷ RT), with Ea the energy a molecule needs to become active.",
+      "why": "The activation energy, the hill every reaction must climb, has been at the centre of the subject ever since.",
+      "box": "idea",
+      "sources": [
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "year": 1897,
+      "date": "1897",
+      "era": "laws",
+      "art": "cell",
+      "title": "Fermentation without living cells",
+      "who": "Eduard Buchner",
+      "where": "Tübingen and Berlin",
+      "country": "Germany",
+      "text": "Buchner ground up yeast with sand, pressed out the juice and added sugar. It fermented, with no living cell present. The work was being done by substances in the juice.",
+      "why": "Enzymes were shown to be chemicals, not a property of life. Buchner received the Nobel Prize in Chemistry in 1907.",
+      "box": "catalyst",
+      "sources": [
+        17,
+        16
+      ]
+    },
+    {
+      "year": 1909,
+      "date": "10 December 1909",
+      "era": "hill",
+      "art": "trophy",
+      "key": true,
+      "title": "A Nobel Prize for catalysis",
+      "who": "Wilhelm Ostwald",
+      "where": "Stockholm",
+      "country": "Sweden",
+      "text": "In the 1890s Ostwald, in Leipzig, had given the modern definition: a catalyst changes the rate of a reaction without appearing in the final products, and it cannot change where the reaction ends up. He received the 1909 Nobel Prize in Chemistry for his work on catalysis, equilibrium and rates.",
+      "why": "It drew the line that still matters most: a catalyst changes how fast, not how much.",
+      "box": "catalyst",
+      "sources": [
+        14,
+        15
+      ]
+    },
+    {
+      "year": 1909,
+      "date": "1909 to 1913",
+      "era": "hill",
+      "art": "building",
+      "key": true,
+      "title": "The search for a catalyst that could feed the world",
+      "who": "Alwin Mittasch, with Carl Bosch and Fritz Haber",
+      "where": "Ludwigshafen and Oppau",
+      "country": "Germany",
+      "text": "Haber had made ammonia from nitrogen and hydrogen with osmium, a metal far too rare for industry. At BASF, Mittasch's team tested thousands of materials in about 20,000 runs and settled on iron with small amounts of other oxides. The first plant, at Oppau, started up in September 1913.",
+      "why": "Much the same iron catalyst is still used. It makes the ammonia behind most nitrogen fertiliser.",
+      "box": "catalyst",
+      "sources": [
+        20,
+        22,
+        21
+      ]
+    },
+    {
+      "year": 1913,
+      "date": "1913",
+      "era": "hill",
+      "art": "molecule",
+      "title": "How fast can an enzyme go?",
+      "who": "Leonor Michaelis and Maud Menten",
+      "where": "Berlin",
+      "country": "Germany",
+      "text": "Working with invertase, the enzyme that splits cane sugar, Michaelis and the Canadian doctor Maud Menten showed that an enzyme first binds its molecule and then changes it. Add more sugar and the rate rises, then levels off when every enzyme is busy.",
+      "why": "Their equation, with its top speed and its half-speed concentration, is still the first thing measured for any new enzyme.",
+      "box": "catalyst",
+      "sources": [
+        18,
+        19
+      ]
+    },
+    {
+      "year": 1916,
+      "date": "1916 and 1918",
+      "era": "hill",
+      "art": "ball",
+      "key": true,
+      "title": "Collision theory, twice",
+      "who": "Max Trautz and William Lewis",
+      "where": "Heidelberg and Liverpool",
+      "country": "Germany",
+      "text": "Trautz in Germany and Lewis in Britain each worked out a reaction rate from the kinetic theory of gases: count the collisions, then keep only those with enough energy. Cut off from each other by the First World War, neither knew of the other's work.",
+      "why": "It explained the Arrhenius equation from moving molecules. It also showed that many reactions are slower than predicted, because molecules must collide the right way round.",
+      "box": "idea",
+      "sources": [
+        23,
+        24
+      ]
+    },
+    {
+      "year": 1926,
+      "date": "1926",
+      "era": "hill",
+      "art": "apple",
+      "title": "An enzyme is a protein",
+      "who": "James Sumner",
+      "where": "Ithaca, New York",
+      "country": "USA",
+      "text": "Sumner crystallised the enzyme urease from jack beans and showed the crystals were pure protein. Many chemists had doubted that enzymes were proteins at all.",
+      "why": "It explained why heat ruins an enzyme: a protein works only while it is folded into the right shape.",
+      "box": "limits",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1935,
+      "date": "1935",
+      "era": "hill",
+      "art": "orbit",
+      "title": "The top of the hill gets a theory",
+      "who": "Henry Eyring; Meredith Evans and Michael Polanyi",
+      "where": "Princeton and Manchester",
+      "country": "USA",
+      "text": "What happens at the very top of the energy hill? In the same year Eyring at Princeton, and Evans and Polanyi at Manchester, described the \"activated complex\": a brief arrangement of atoms with old bonds half broken and new ones half made. From it they calculated rates.",
+      "why": "Transition state theory let chemists estimate a rate from the structure of molecules, and it works in liquids as well as gases.",
+      "box": "idea",
+      "sources": [
+        25,
+        26
+      ]
+    },
+    {
+      "year": 1956,
+      "date": "1956",
+      "era": "clean",
+      "art": "oldcar",
+      "title": "A catalyst for exhaust, too early",
+      "who": "Eugene Houdry",
+      "where": "Pennsylvania",
+      "country": "USA",
+      "text": "Houdry, a French-born engineer already famous for catalysts that crack crude oil into petrol, grew worried about smog. He built catalytic converters for factory chimneys and fork-lift trucks, then for cars, and was granted a US patent in 1956. But the lead then added to petrol coated the catalyst and stopped it working.",
+      "why": "The idea had to wait for unleaded petrol. It is a textbook case of a catalyst being poisoned.",
+      "box": "catalyst",
+      "sources": [
+        28,
+        29,
+        27
+      ]
+    },
+    {
+      "year": 1973,
+      "date": "1973",
+      "era": "clean",
+      "art": "car",
+      "key": true,
+      "title": "The converter that went into every car",
+      "who": "Carl Keith, John Mooney and colleagues at Engelhard",
+      "where": "New Jersey",
+      "country": "USA",
+      "text": "Engineers at Engelhard built the first production catalytic converter, and went on to the three-way catalyst, which deals with carbon monoxide, unburnt fuel and nitrogen oxides in one unit. Cars sold in the United States carried converters from the 1975 model year.",
+      "why": "A few grams of platinum-group metal in each car has removed billions of tonnes of pollutants from the air.",
+      "box": "catalyst",
+      "sources": [
+        27,
+        30,
+        31
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "1 April 1995",
+      "era": "clean",
+      "art": "road",
+      "title": "Converters and unleaded petrol reach India's metros",
+      "who": "Government of India, following Supreme Court hearings",
+      "where": "Delhi, Mumbai, Kolkata and Chennai",
+      "country": "India",
+      "text": "From this date new petrol cars registered in the four metros had to carry a catalytic converter, and unleaded petrol went on sale at selected pumps there to keep the catalysts alive. Leaded petrol was phased out across India by 2000.",
+      "why": "It began the clean-up that led to the Bharat Stage norms. BS6, in force across India since 1 April 2020, depends on catalysts in every new vehicle.",
+      "box": "catalyst",
+      "sources": [
+        33,
+        34
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999",
+      "era": "clean",
+      "art": "flash",
+      "title": "Watching the top of the hill",
+      "who": "Ahmed Zewail",
+      "where": "Pasadena, California",
+      "country": "USA",
+      "text": "Zewail, born in Egypt and working at Caltech, used laser flashes a few femtoseconds long to photograph molecules in the act of reacting. In one early experiment a bond was seen breaking in about 200 femtoseconds. He received the 1999 Nobel Prize in Chemistry.",
+      "why": "The transition state, predicted in 1935 and too brief to catch for sixty years, was finally observed.",
+      "box": "idea",
+      "sources": [
+        35
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "10 October 2007",
+      "era": "clean",
+      "art": "atomspin",
+      "title": "How iron really makes ammonia",
+      "who": "Gerhard Ertl",
+      "where": "Berlin",
+      "country": "Germany",
+      "text": "Ertl spent years studying clean metal surfaces in a vacuum. He showed, step by step, how nitrogen molecules land on iron, split into atoms and pick up hydrogen, and that the splitting of nitrogen is the slow step. He also explained how carbon monoxide is oxidised on platinum, as in a car's converter. The Nobel Prize in Chemistry was announced on his 71st birthday.",
+      "why": "Almost a century after Mittasch found the iron catalyst by trial and error, chemists could say why it works.",
+      "box": "catalyst",
+      "sources": [
+        36,
+        22
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First recorded dust explosion",
+      "value": "1785",
+      "who": "A flour store in Turin, reported by Count Morozzo"
+    },
+    {
+      "label": "First recorded catalysis",
+      "value": "1811",
+      "who": "Gottlieb Kirchhoff: acid on starch"
+    },
+    {
+      "label": "First enzyme isolated",
+      "value": "1833",
+      "who": "Payen and Persoz: diastase from malt"
+    },
+    {
+      "label": "The word \"catalysis\"",
+      "value": "1835",
+      "who": "Jöns Jacob Berzelius, Sweden"
+    },
+    {
+      "label": "First measured rate law",
+      "value": "1850",
+      "who": "Ludwig Wilhelmy, with a polarimeter"
+    },
+    {
+      "label": "Arrhenius equation",
+      "value": "1889",
+      "who": "Svante Arrhenius, Sweden"
+    },
+    {
+      "label": "First ammonia plant with an iron catalyst",
+      "value": "1913",
+      "who": "BASF, Oppau, Germany"
+    },
+    {
+      "label": "First production catalytic converter",
+      "value": "1973",
+      "who": "Engelhard: Keith, Mooney and colleagues"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jöns Jacob Berzelius",
+      "life": "1779 – 1848",
+      "role": "Chemist",
+      "from": "Sweden",
+      "note": "Saw one idea behind many odd reactions and named it catalysis in 1835."
+    },
+    {
+      "name": "Ludwig Wilhelmy",
+      "life": "1812 – 1864",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "Timed the splitting of cane sugar in acid in 1850: the first measured rate law."
+    },
+    {
+      "name": "Jacobus van 't Hoff",
+      "life": "1852 – 1911",
+      "role": "Chemist",
+      "from": "Netherlands",
+      "note": "Set out the laws of chemical dynamics in 1884 and won the first Nobel Prize in Chemistry."
+    },
+    {
+      "name": "Svante Arrhenius",
+      "life": "1859 – 1927",
+      "role": "Chemist",
+      "from": "Sweden",
+      "note": "Explained the effect of temperature with an activation energy in 1889. Nobel Prize 1903, for his theory of ions."
+    },
+    {
+      "name": "Wilhelm Ostwald",
+      "life": "1853 – 1932",
+      "role": "Chemist",
+      "from": "Latvia and Germany",
+      "note": "Defined a catalyst as something that changes the rate but not the end point. Nobel Prize 1909."
+    },
+    {
+      "name": "Alwin Mittasch",
+      "life": "1869 – 1953",
+      "role": "Chemist",
+      "from": "Germany",
+      "note": "Led the search through thousands of materials that found the iron catalyst for ammonia."
+    },
+    {
+      "name": "Maud Menten",
+      "life": "1879 – 1960",
+      "role": "Doctor and biochemist",
+      "from": "Canada",
+      "note": "With Leonor Michaelis in 1913, gave the equation for the speed of an enzyme."
+    },
+    {
+      "name": "Henry Eyring",
+      "life": "1901 – 1981",
+      "role": "Chemist",
+      "from": "Mexico and USA",
+      "note": "Described the activated complex at the top of the energy hill in 1935."
+    },
+    {
+      "name": "Eugene Houdry",
+      "life": "1892 – 1962",
+      "role": "Engineer",
+      "from": "France and USA",
+      "note": "Invented catalytic cracking of oil and patented an early catalytic converter for cars."
+    },
+    {
+      "name": "Haren Gandhi",
+      "life": "1941 – 2010",
+      "role": "Chemical engineer",
+      "from": "India and USA",
+      "note": "Studied in Mumbai, then spent his career at Ford improving three-way exhaust catalysts. US National Medal of Technology, 2002."
+    },
+    {
+      "name": "Gerhard Ertl",
+      "life": "born 1936",
+      "role": "Physical chemist",
+      "from": "Germany",
+      "note": "Showed step by step how iron makes ammonia and platinum cleans exhaust. Nobel Prize 2007."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "At room temperature only about one collision in two billion clears a hill of 53 kJ/mol. Reactions still happen because each molecule in air collides several billion times a second.",
+    "The rule \"rates double every 10 °C\" is exact only for a hill of about 53 kJ/mol near room temperature. Van 't Hoff, who started it in 1884, said two to three times.",
+    "Hydrogen peroxide breaks down over a hill of about 75 kJ/mol on its own, about 56 with iodide and about 8 with the enzyme catalase.",
+    "A catalyst cannot change how much product a reaction gives. It only changes how long you wait.",
+    "One litre of solid, ground to flour-sized grains of 50 micrometres, has about 120 square metres of surface.",
+    "Diamond turning to graphite is downhill, but its hill is about 730 kJ/mol or more. Measurable change needs temperatures above about 1,500 °C.",
+    "Lead in petrol ruins a catalytic converter, which is one reason leaded petrol was phased out around the world."
+  ],
+  "sources": [
+    {
+      "title": "Chemical kinetics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chemical_kinetics"
+    },
+    {
+      "title": "Arrhenius equation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arrhenius_equation"
+    },
+    {
+      "title": "The development of the Arrhenius equation (K. J. Laidler, J. Chem. Educ. 1984)",
+      "publisher": "Journal of Chemical Education, copy hosted by IIT Delhi",
+      "url": "https://web.iitd.ac.in/~nkurur/2015-16/Isem/cml103/Laidler_ArrheniusEqn.pdf"
+    },
+    {
+      "title": "Ludwig Wilhelmy",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ludwig_Wilhelmy"
+    },
+    {
+      "title": "Ludwig Ferdinand Wilhelmy (1812–1864): The law by which the action of acids on cane sugar occurs",
+      "publisher": "Le Moyne College, Classic Chemistry",
+      "url": "https://web.lemoyne.edu/giunta/wilhelmy.html"
+    },
+    {
+      "title": "Augustus George Vernon Harcourt",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Augustus_George_Vernon_Harcourt"
+    },
+    {
+      "title": "William Esson",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/William_Esson"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1901: Jacobus H. van 't Hoff",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1901/summary/"
+    },
+    {
+      "title": "Jacobus Henricus van 't Hoff",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacobus_Henricus_van_%27t_Hoff"
+    },
+    {
+      "title": "Svante Arrhenius: biographical",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1903/arrhenius/biographical/"
+    },
+    {
+      "title": "Catalysis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Catalysis"
+    },
+    {
+      "title": "Gottlieb Kirchhoff",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gottlieb_Kirchhoff"
+    },
+    {
+      "title": "Döbereiner's lamp",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/D%C3%B6bereiner%27s_lamp"
+    },
+    {
+      "title": "On this day: platinum catalysis",
+      "publisher": "RSC Education",
+      "url": "https://edu.rsc.org/resources/on-this-day-aug-03--platinum-catalysis/10803.article"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1909: Wilhelm Ostwald",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1909/summary/"
+    },
+    {
+      "title": "Award ceremony speech, Nobel Prize in Chemistry 1909",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1909/ceremony-speech/"
+    },
+    {
+      "title": "History of biochemistry",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_biochemistry"
+    },
+    {
+      "title": "The Nobel Prize in Chemistry 1907: Eduard Buchner",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1907/summary/"
+    },
+    {
+      "title": "The original Michaelis constant: translation of the 1913 Michaelis–Menten paper (Johnson and Goody, Biochemistry 2011)",
+      "publisher": "PubMed, US National Library of Medicine",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21888353/"
+    },
+    {
+      "title": "Michaelis–Menten kinetics",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Michaelis%E2%80%93Menten_kinetics"
+    },
+    {
+      "title": "Alwin Mittasch",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alwin_Mittasch"
+    },
+    {
+      "title": "BASF history, 1902–1924",
+      "publisher": "BASF",
+      "url": "https://www.basf.com/global/en/who-we-are/history/chronology/1902-1924"
+    },
+    {
+      "title": "Haber process",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Haber_process"
+    },
+    {
+      "title": "Collision theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Collision_theory"
+    },
+    {
+      "title": "Max Trautz",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Max_Trautz"
+    },
+    {
+      "title": "Transition state theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Transition_state_theory"
+    },
+    {
+      "title": "Eyring equation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eyring_equation"
+    },
+    {
+      "title": "Catalytic converter",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Catalytic_converter"
+    },
+    {
+      "title": "Eugene Houdry",
+      "publisher": "National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/eugene-houdry"
+    },
+    {
+      "title": "Houdry's catalytic converter",
+      "publisher": "Environment & Society Portal, Rachel Carson Center",
+      "url": "https://www.environmentandsociety.org/node/1840"
+    },
+    {
+      "title": "John J. Mooney",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/John_J._Mooney"
+    },
+    {
+      "title": "Carl D. Keith",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carl_D._Keith"
+    },
+    {
+      "title": "Haren Gandhi",
+      "publisher": "National Inventors Hall of Fame",
+      "url": "https://www.invent.org/inductees/haren-gandhi"
+    },
+    {
+      "title": "M.C. Mehta v. Union of India, WP 13029/1985 (14 February 1996): lead phase-out and catalytic converters",
+      "publisher": "Environmental Law Alliance Worldwide",
+      "url": "https://elaw.org/system/files/attachments/publicresource/wp13029of1985ddFeb14of1996.pdf"
+    },
+    {
+      "title": "Bharat stage emission standards",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bharat_stage_emission_standards"
+    },
+    {
+      "title": "Press release: The Nobel Prize in Chemistry 1999",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1999/press-release/"
+    },
+    {
+      "title": "Press release: The Nobel Prize in Chemistry 2007",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/chemistry/2007/press-release/"
+    },
+    {
+      "title": "History of dust explosions",
+      "publisher": "Powder & Bulk Solids",
+      "url": "https://www.powderbulksolids.com/explosion-protection-safety/history-of-dust-explosions"
+    },
+    {
+      "title": "Dust explosion",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Dust_explosion"
+    },
+    {
+      "title": "Investigating activation energies",
+      "publisher": "RSC Education",
+      "url": "https://edu.rsc.org/feature/investigating-activation-energies/2020172.article"
+    },
+    {
+      "title": "Ea and catalysts",
+      "publisher": "Chemistry LibreTexts",
+      "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/04%3A_Reaction_Mechanisms/4.04%3A_Ea_and_Catalysts"
+    },
+    {
+      "title": "Graphitization of diamond at zero pressure and at a high pressure (Davies and Evans, Proc. R. Soc. A 328, 413, 1972)",
+      "publisher": "Proceedings of the Royal Society A",
+      "url": "https://doi.org/10.1098/rspa.1972.0086"
+    },
+    {
+      "title": "ISO 9223:2012 Corrosion of metals and alloys: corrosivity of atmospheres",
+      "publisher": "International Organization for Standardization",
+      "url": "https://www.iso.org/standard/53499.html"
+    }
+  ]
+}
